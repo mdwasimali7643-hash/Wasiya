@@ -19,7 +19,7 @@ const hours = now.getHours();
 const minutes = now.getMinutes();
 const seconds = now.getSeconds();
 const months = now.getMonth() + 5;
-const days = now.getDay() - 7;
+const days = now.getDay();
 
 
 const display = document.getElementById('display');
